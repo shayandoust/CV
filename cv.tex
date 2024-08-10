@@ -1,0 +1,153 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+
+\usepackage{url,parskip, xspace} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+\usepackage{fullpage}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Shayan \textsc{Doust}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Location:} & Liverpool, United Kingdom \\
+\textsc{Date of Birth:} & 03 October 2000 \\
+\textsc{Phone:} & 07419767775\\
+\textsc{LinkedIn:} & \href{https://www.linkedin.com/in/shayan-doust/}{https://www.linkedin.com/in/shayan-doust/} \\
+\textsc{email:} & \href{mailto:hello@shayandoust.me}{hello@shayandoust.me} \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL STATEMENT
+%----------------------------------------------------------------------------------------
+
+\section{Personal Statement}
+
+I am a studious and persevering student studying \textbf{MSc Theoretical Computer Science} at the \textit{University of Liverpool}. Having attained a $1^{st}$ class Honours in \textbf{BSc Computer Science} specialising in Artificial Intelligence \& Machine Learning, I am looking to pursue my ambition of enrolling in a PhD programme  in a related field. I enjoy Mathematics; particularly, I take joy in reading past and recent theoretical publications and assessing how I can build upon it. With a high achievement at University and my work in providing a net business value as a Data Scientist at GlaxoSmithKline, I strive to push myself to be in the frontier of prospective research. 
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION & WORK
+%----------------------------------------------------------------------------------------
+
+\section{Education \& Work}
+
+\begin{tabular}{rl}	
+\textsc{September} 2023 - \textsc{Present} & \textbf{University of Liverpool} \\
+&\normalsize \textsc{MSc Theoretical Computer Science} \\
+&\normalsize Current modules include Multi-Agent Reinforcement Learning \\
+& and Distributed Systems. \\
+&\\
+%------------------------------------------------
+\textsc{September} 2019 - \textsc{September} 2023 & \textbf{University of Liverpool} \\
+&\normalsize \textsc{BSc Computer Science with a year in industry} \\
+& \\
+&\normalsize Artificial Intelligence/Machine Learning specialty pathway. \\
+&\textsc{ACHIEVED 1\textsuperscript{st} class Honours.} \\
+&\\
+%------------------------------------------------
+
+\textsc{August} 2021 - \textsc{August} 2022 & \textbf{GlaxoSmithKline Industrial Placement} \\
+&\normalsize Worked as a Data Scientist in a strictly-agile environment \\
+& within the domain of Pharmaceuticals. Responsibilities \\
+& included the strategic unification of keyless data in our \\
+& Apache Hadoop clusters, visualisation of data landscape \\
+& using R, and the computer vision centric quality control \\
+& of pseudocoloured chromosome masks from our \\
+& in-vitro pipeline. \\
+&\\
+%------------------------------------------------
+
+\textsc{September} 2017 - \textsc{2019} & \textbf{Upton by Chester high school} \\
+&\normalsize \textit{3 A-Levels: Maths, Physics \& Computer Science} \\
+&\\
+&\textsc{ACHIEVED A* - C} \\
+&\normalsize \textit{A-Level project:} cross-platform encrypted messaging application \\
+& in C/C++ \\
+&\\
+%------------------------------------------------
+
+\textsc{September} 2016 - \textsc{2017} & \textbf{Upton by Chester high school} \\
+&\normalsize \textit{6 GCSEs including Maths, Physics \& Computer Science}
+%------------------------------------------------
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\begin{itemize}
+\item{\textbf{Expert understanding of *nix systems.}} \\
+11 years of using Unix-like systems such as GNU/Linux. Additionally, worked with and compiled several softwares for packages on various architectures such as Arm, Amd64, Mips, et cetera.
+\item{\textbf{Data scraping, wrangling, modeling and evaluation.}} \\
+I further strengthened these skills by pursuing the Data Science professional certificate on edX as well as using internet resources to teach myself. I am particularly excited as Data Science \& Artificial Intelligence is my chosen module for this year's university.
+\item{\textbf{Knowledge of R statistical language, Java, Python and C(++).}} \\
+R language has been used when learning about statistics. I have also trialled with using Rcpp to write R modules.
+\item{\textbf{Understanding of algorithmic methods of optimisation.}}
+\item{\textbf{Strong experience with cloud services like AWS and Google Cloud Compute.}}
+\item{\textbf{Strong experience with DataBricks and general Apache Spark platforms.}}
+\item{\textbf{Proficient with writing and delivering complex models through popular AI/ML frameworks like TensorFlow.}}
+\item{\textbf{Interpersonal skills with the ability to orchestrate and lead groups.}}
+\item{\textbf{Strong experience with using Conda environment, more specifically Bioconda.}}
+\item{\textbf{Comfortable with formulating and working with common statistical \\ methodologies such as p-values, linear regression, probability, Bayes' theorem and multivariate modelling.}}
+\item{\textbf{A critical thinker.}}
+\item{\textbf{Passion of learning and gaining a deeper understanding of concepts.}}
+\item{\textbf{High social understanding \& eager to help others.}}
+\item{\textbf{First experiences with forcasting and predictive models.}} \\
+Practised using the datasets within the \href{https://cran.r-project.org/web/packages/dslabs/index.html}{dslabs} package.
+\item{\textbf{Great communicative skills.}} \\
+Confidence and ability to converse within teams during teamworks, or to address a wider audience.
+\item{\textbf{Ability to deliver qualitative and quantitative work under heavy workload, time constraints and pressure.}} \\
+I am able to formulate a mental work-time structure in order to fairly and efficiently balance work to prevent any sort of bottlenecking.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	NOTABLE CERTIFICATES & ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+
+\section{Achievements \& Certificates}
+
+\begin{tabular}{rl}
+\textsc{July} 2020 & Attained the \textbf{\href{https://credentials.edx.org/credentials/bf98d6fd623848c184c1ba57829d6b64/}{Data Science professional certificate}}\\ 
+\footnotesize(\textbf{HarvardX $@$ edX})\normalsize\\
+\textsc{May} 2019 - \textsc{August} 2022 & \href{https://qa.debian.org/developer.php?login=hello%40shayandoust.me}{Debian maintainer} and prospective developer within the Debian-Med team \normalsize\\
+\end{tabular}
+\\\\\\
+The Data Science certificate I have attained acts as a major supplement to my A.I. and analytics module I took during my Undergraduate course. They both fairly overlap and this has helped fill any void in my knowledge.
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+Desire and motivation of exploring and self-teaching new elements within the field of Data Science \& Machine Learning, as well as mathematical theorems in the realm of Artificial Intelligence; my BSc honour's project was based on the design and implementation of a pipeline that takes in noisy MRI images as input, and outputs clean MRI images segmenting any benign and malignant tumours present - achieved 80\% Jaccard similarity.
+
+\end{document}
